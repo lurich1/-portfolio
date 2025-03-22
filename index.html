@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowers & Saints - Creative Agency</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <a href="/">
+          <span class="sr-only">Coding With Fiifi</span>
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/creative-SW6QDQbcVuwPgb6a2CYtYmRbsJa4k1.png" alt="Flowers & Saints Logo" class="logo-img">
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="theme-toggle">
+        <button id="theme-toggle-btn" class="theme-btn">
+          <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title reveal-element">
+            <span class="text-gradient">James Fiifi Quayson</span>
+          </h1>
+          <p class="hero-description reveal-element">
+            Where innovation meets code. I craft seamless digital experiences through development, research, and technology.
+          </p>          
+          <div class="hero-buttons reveal-element">
+            <a href="#work" class="apple-button">Explore Our Work</a>
+            <a href="#about" class="text-link">
+              Learn more <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image reveal-element">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/creative-SW6QDQbcVuwPgb6a2CYtYmRbsJa4k1.png" alt="Flowers & Saints design concept" class="rounded-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Wear Your Story Section -->
+    <section class="wear-your-story">
+      <div class="container">
+        <h2 class="section-title reveal-element">Code Your Vision</h2>
+        <p class="section-description reveal-element">
+            Every project I build is a reflection of innovation and problem-solving. I blend research, technology, and 
+            creativity to craft digital solutions that make an impact.
+        </p>
+    </div>    
+        <div class="cta-button reveal-element">
+          <a href="#collection" class="apple-button">
+            Explore My Work
+            <svg class="icon-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Carousel -->
+    <section class="feature-carousel">
+      <div class="container">
+          <h2 class="section-title reveal-element">Why Work With Me</h2>
+          <div class="carousel-container">
+              <div class="carousel" id="feature-carousel">
+                  <div class="carousel-item">
+                      <div class="feature-icon">💡</div>
+                      <h3 class="feature-title">Innovative Solutions</h3>
+                      <p class="feature-description">I blend research and technology to build impactful digital solutions.</p>
+                      <a href="#learn-more" class="feature-link">Learn more →</a>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="feature-icon">📱</div>
+                      <h3 class="feature-title">Responsive Design</h3>
+                      <p class="feature-description">Seamless user experiences across all devices and platforms.</p>
+                      <a href="#learn-more" class="feature-link">Learn more →</a>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="feature-icon">⚡</div>
+                      <h3 class="feature-title">Optimized Performance</h3>
+                      <p class="feature-description">Efficient code and fast load times for smooth interactions.</p>
+                      <a href="#learn-more" class="feature-link">Learn more →</a>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="feature-icon">🔬</div>
+                      <h3 class="feature-title">Research-Driven</h3>
+                      <p class="feature-description">I apply data-driven insights to solve real-world problems.</p>
+                      <a href="#learn-more" class="feature-link">Learn more →</a>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="feature-icon">🔍</div>
+                      <h3 class="feature-title">Scalable & Secure</h3>
+                      <p class="feature-description">Building solutions that grow with your needs while staying secure.</p>
+                      <a href="#learn-more" class="feature-link">Learn more →</a>
+                  </div>
+              </div>
+              <button class="carousel-control prev" id="feature-prev">←</button>
+              <button class="carousel-control next" id="feature-next">→</button>
+          </div>
+      </div>
+  </section>
+  
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio" id="work">
+      <div class="container">
+        <h2 class="section-title reveal-element">My Work</h2>
+        <p class="section-description reveal-element">
+          A showcase of our minimalist designs and creative solutions.
+        </p>
+        
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Branding">Branding</button>
+          <button class="filter-btn" data-filter="Web Design">Web Design</button>
+          <button class="filter-btn" data-filter="Mobile App">Mobile App</button>
+          <button class="filter-btn" data-filter="Digital Marketing">Digital Marketing</button>
+          <button class="filter-btn" data-filter="UI/UX">UI/UX</button>
+          <button class="filter-btn" data-filter="Product Design">Product Design</button>
+        </div>
+        
+        <div class="portfolio-grid">
+          <div class="portfolio-item" data-category="Branding">
+            <div class="portfolio-image">
+              <img src="images/7744165.jpg?height=800&width=600" alt="Minimalist Brand Identity">
+              <div class="portfolio-overlay">
+                <p>A scalable and high-performance web solution for businesses.</p>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Web Development</span>
+              <h3 class="portfolio-title">Innovative Web Platform</h3>
+              <a href="#project" class="portfolio-link">
+                View Project
+                <svg class="icon-right-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="Web Design">
+            <div class="portfolio-image">
+              <img src="images/ui-ux-representations-with-smartphone.jpg?height=800&width=600" alt="Sleek Web Experience">
+              <div class="portfolio-overlay">
+                <p>A user-friendly mobile app with intuitive UI and seamless performance.</p>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Mobile App Development</span>
+              <h3 class="portfolio-title">Smart Mobile Application</h3>
+              <a href="#project" class="portfolio-link">
+                View Project
+                <svg class="icon-right-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="Mobile App">
+            <div class="portfolio-image">
+              <img src="images/ui-ux-representations-with-smartphone.jpg?height=800&width=600" alt="Intuitive Mobile App">
+              <div class="portfolio-overlay">
+                <p>User-friendly app design for a health and wellness company</p>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">Mobile App</span>
+              <h3 class="portfolio-title">Intuitive Mobile App</h3>
+              <a href="#project" class="portfolio-link">
+                View Project
+                <svg class="icon-right-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="Digital Marketing">
+            <div class="portfolio-image">
+              <img src="images/ai-chip-artificial-intelligence-future-technology-innovation.jpg?height=800&width=600" alt="Elegant Digital Campaign">
+              <div class="portfolio-overlay">
+                <p>Leveraging AI to solve real-world problems efficiently.</p>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">AI & Research</span>
+              <h3 class="portfolio-title">AI-Powered Solution</h3>
+              <a href="#project" class="portfolio-link">
+                View Project
+                <svg class="icon-right-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="UI/UX">
+            <div class="portfolio-image">
+              <img src="images/5726840.jpg?height=800&width=600" alt="Refined UI/UX Design">
+              <div class="portfolio-overlay">
+                <p>Enhancing user experiences with clean and effective interfaces.</p>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">UI/UX</span>
+              <h3 class="portfolio-title">Refined UI/UX Design</h3>
+              <a href="#project" class="portfolio-link">
+                View Project
+                <svg class="icon-right-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="portfolio-item" data-category="Product Design">
+            <div class="portfolio-image">
+              <img src="images/smiley-woman-holding-tablet-full-shot.jpg?height=800&width=600" alt="Minimalist Product Design">
+              <div class="portfolio-overlay">
+                <p>Technology-driven solutions to enhance agricultural productivity.</p>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="portfolio-category">AgriTech</span>
+                    <h3 class="portfolio-title">AgriTech Innovation</h3>
+              <a href="#project" class="portfolio-link">
+                View Project
+                <svg class="icon-right-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="about">
+      <div class="container">
+        <h2 class="section-title reveal-element">My Journey</h2>
+        <p class="section-description reveal-element">A timeline of my growth, learning, and projects.</p>
+        
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+          
+          <div class="timeline-event left reveal-element">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2021</span>
+              <h3 class="timeline-title">Started Learning Development</h3>
+              <p class="timeline-description">Began my journey into programming and software development.</p>
+              <div class="timeline-details">
+                <p>Started learning web and software development, focusing on foundational programming concepts, UI/UX, and problem-solving.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="timeline-event right reveal-element">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2022</span>
+                    <h3 class="timeline-title">Building Projects & Final Year Assistance</h3>
+                    <p class="timeline-description">Started working on real-world projects and assisting final-year students.</p>
+                    <div class="timeline-details">
+                        <p>Developed projects for students, applying my knowledge to create practical solutions. Explored various programming languages and frameworks while honing my problem-solving skills.</p>
+                    </div>
+            </div>
+          </div>
+          
+          <div class="timeline-event left reveal-element">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2023</span>
+                    <h3 class="timeline-title">Internship at Capital Rural Bank</h3>
+                    <p class="timeline-description">Gained hands-on industry experience in a professional setting.</p>
+                    <div class="timeline-details">
+                        <p>Worked as an intern at Capital Rural Bank, learning about financial technology, software solutions in banking, and gaining insights into real-world software deployment.</p>
+                    </div>
+            </div>
+          </div>
+          
+          <div class="timeline-event right reveal-element">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2024</span>
+                    <h3 class="timeline-title">Tech4Farmers & Advanced Development</h3>
+                    <p class="timeline-description">Working on impactful projects, including Tech4Farmers.</p>
+                    <div class="timeline-details">
+                        <p>Developing innovative solutions in AgriTech, AI, and software development. Expanding my expertise in mobile and web development while contributing to meaningful projects.</p>
+                    </div>
+            </div>
+          </div>
+          
+          <div class="timeline-event left reveal-element">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2024</span>
+              <h3 class="timeline-title">International Recognition</h3>
+              <p class="timeline-description">Received the prestigious International Floral Design Award.</p>
+              <div class="timeline-details">
+                <p>Our 'Ethereal Echoes' installation, which combined holographic projections with live flowers, won the gold medal at the Chelsea Flower Show.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="timeline-event right reveal-element">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2025</span>
+              <h3 class="timeline-title">Expansion to Physical Stores</h3>
+              <p class="timeline-description">Opened my first flagship store in the heart of Accra.</p>
+              <div class="timeline-details">
+                <p>Developing innovative solutions in AgriTech, AI, and software development. Expanding my expertise in mobile and web development while contributing to meaningful projects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee Section -->
+   <!-- Marquee Section -->
+<section class="marquee">
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <span class="marquee-text">James Fiifi Quayson</span>
+      <span class="marquee-text">Coding with Fiifi</span>
+      <span class="marquee-text">James Fiifi Quayson</span>
+      <span class="marquee-text">Coding with Fiifi</span>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal-element">Get in Touch</h2>
+        <p class="section-description reveal-element">
+          We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.
+        </p>
+        
+        <form id="contact-form" class="contact-form reveal-element">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Cindy Thompson" required>
+            <div class="error-message" id="name-error"></div>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="jquayson827@gmail.com" required>
+            <div class="error-message" id="email-error"></div>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+233 533431086" required>
+            <div class="error-message" id="phone-error"></div>
+          </div>
+          
+          <div class="form-group">
+            <label for="budget">Budget</label>
+            <input type="text" id="budget" name="budget" placeholder="$1,000 - $5,000" required>
+            <div class="error-message" id="budget-error"></div>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project..." required></textarea>
+            <div class="error-message" id="message-error"></div>
+          </div>
+          
+          <button type="submit" class="submit-button" id="submit-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Newsletter Subscribe -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-container reveal-element">
+          <h2 class="newsletter-title">Stay Inspired</h2>
+          <p class="newsletter-description">
+            Subscribe to our newsletter for the latest updates on minimal design and floral artistry.
+          </p>
+          
+          <form id="newsletter-form" class="newsletter-form">
+            <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required>
+            <div class="error-message" id="newsletter-email-error"></div>
+            <button type="submit" class="newsletter-button" id="newsletter-submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <a href="#about" class="footer-link">About</a>
+        <a href="#work" class="footer-link">Work</a>
+        <a href="#services" class="footer-link">Services</a>
+        <a href="#contact" class="footer-link">Contact</a>
+        <a href="#privacy" class="footer-link">Privacy</a>
+        <a href="#terms" class="footer-link">Terms</a>
+      </nav>
+      
+      <p class="footer-copyright">
+        Designed & Developed with ❤️ by James Fiifi Quayson. Copyright Coding with Fiifi
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top">↑</button>
+
+  <!-- Custom Cursor -->
+  <div id="custom-cursor" class="custom-cursor"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
